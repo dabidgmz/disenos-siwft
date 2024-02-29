@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0A569D2B85882100337C14 /* perfilusuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0A569C2B85882100337C14 /* perfilusuario.swift */; };
+		0F3D43BC2B68957300E1B169 /* register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3D43BB2B68957300E1B169 /* register.swift */; };
+		0F5D13E92B89539F0059541A /* menuview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5D13E82B89539F0059541A /* menuview.swift */; };
+		0F8A0D2D2B883A4E00A6F347 /* Splascreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8A0D2C2B883A4E00A6F347 /* Splascreen.swift */; };
 		0FD007AE2B64BEF90057D85B /* loginptcintApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD007AD2B64BEF90057D85B /* loginptcintApp.swift */; };
-		0FD007B02B64BEF90057D85B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD007AF2B64BEF90057D85B /* ContentView.swift */; };
+		0FD007B02B64BEF90057D85B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD007AF2B64BEF90057D85B /* LoginView.swift */; };
 		0FD007B22B64BEFB0057D85B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD007B12B64BEFB0057D85B /* Assets.xcassets */; };
 		0FD007B52B64BEFB0057D85B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD007B42B64BEFB0057D85B /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F0A569C2B85882100337C14 /* perfilusuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = perfilusuario.swift; sourceTree = "<group>"; };
+		0F3D43BB2B68957300E1B169 /* register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = register.swift; sourceTree = "<group>"; };
+		0F5D13E82B89539F0059541A /* menuview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuview.swift; sourceTree = "<group>"; };
+		0F8A0D2C2B883A4E00A6F347 /* Splascreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splascreen.swift; sourceTree = "<group>"; };
 		0FD007AA2B64BEF90057D85B /* loginptcint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loginptcint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD007AD2B64BEF90057D85B /* loginptcintApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginptcintApp.swift; sourceTree = "<group>"; };
-		0FD007AF2B64BEF90057D85B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0FD007AF2B64BEF90057D85B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		0FD007B12B64BEFB0057D85B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FD007B42B64BEFB0057D85B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				0FD007AD2B64BEF90057D85B /* loginptcintApp.swift */,
-				0FD007AF2B64BEF90057D85B /* ContentView.swift */,
+				0FD007AF2B64BEF90057D85B /* LoginView.swift */,
+				0F0A569C2B85882100337C14 /* perfilusuario.swift */,
+				0F8A0D2C2B883A4E00A6F347 /* Splascreen.swift */,
+				0F5D13E82B89539F0059541A /* menuview.swift */,
+				0F3D43BB2B68957300E1B169 /* register.swift */,
 				0FD007B12B64BEFB0057D85B /* Assets.xcassets */,
 				0FD007B32B64BEFB0057D85B /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FD007B02B64BEF90057D85B /* ContentView.swift in Sources */,
+				0F0A569D2B85882100337C14 /* perfilusuario.swift in Sources */,
+				0FD007B02B64BEF90057D85B /* LoginView.swift in Sources */,
 				0FD007AE2B64BEF90057D85B /* loginptcintApp.swift in Sources */,
+				0F3D43BC2B68957300E1B169 /* register.swift in Sources */,
+				0F8A0D2D2B883A4E00A6F347 /* Splascreen.swift in Sources */,
+				0F5D13E92B89539F0059541A /* menuview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
